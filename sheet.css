@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.3; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+    width: 50%;
+    margin-left: 30%;
+  }  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 50;
+    right: 15px;
+    color: red;
+    font-size: 35px;
+    cursor: pointer;
+  }
+

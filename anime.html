@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestLines</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/best-moment-6073508-5074567.png" type="image/png">
+    <!-- Include Font Awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #ff6666, #ff9933, #ffff66, #99ff99, #cc99ff);
+            background-repeat: no-repeat;
+            height: fit-content;
+            width: auto;
+            margin: 0;
+            padding: 0;
+        }
+        b{
+            font-size: 3rem;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="mtitle">|--Anime--|</h1>
+    <div class="row"></div>
+        <div class="column">
+            <img src="Image\anime\codegeass.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+       </div>
+        <div class="column">
+            <img src="Image\anime\demonslayer.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\dragonballz.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\fullmetalalchemist.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\ghostintheshell.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\jujutsukaisen.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\naruto.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\one_piece.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\pokemon.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\rurounikenshin.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\theboyandthebeast.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\pokemon1.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\Attackontitan.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\detectiveconan.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\SlamDunk.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Image\anime\Zero.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+    </div>
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+    <br><br><br><br><br><br><br>
+    <footer>
+        <div id="footer">
+            <div class="pos">
+                <span>Movies</span>
+                <ul>
+                    <li>&#128073; The Girl Next Door</li>
+                    <li>&#128073; The God Father Part II <u>1974</u></li>
+                    <li>&#128073; Juno <u>2007</u></li>
+                </ul>
+                <span>Web Series</span>
+                <ul>
+                    <li>&#128073; FamilyMan</li>
+                    <li>&#128073; Kota Factory</li>
+                    <li>&#128073; Mirzapur</li>
+                </ul>
+                <span>Anime</span>
+                <ul>
+                    <li>&#128073; Horimiya</li>
+                    <li>&#128073; One Piece</li>
+                    <li>&#128073; Jujutsu Kaisen</li>
+                </ul>
+                <span>Shayari</span>
+                <ul>
+                    <li>&#128073; Love Shayari</li>
+                    <li>&#128073; Deep Thoroughs</li>
+                    <li>&#128073; Inspirational Shayari</li>
+                </ul>
+                <span>Book</span>
+                <ul>
+                    <li>&#128073; Bhagavada Gita</li>
+                    <li>&#128073; Mahabharata</li>
+                    <li>&#128073; Ramayana</li>
+                </ul>
+            </div>                
+        </div>
+    </footer>
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            expandImg.src = imgs.src;
+            expandImg.parentElement.style.display = "block";
+          }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
